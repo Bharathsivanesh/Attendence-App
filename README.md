@@ -1,50 +1,102 @@
-# Welcome to your Expo app 👋
+# 🏨 Hostel Attendance App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+📲 **Purpose**  
+To streamline hostel attendance management by enabling wardens to take attendance, manage student data, and notify parents about absences efficiently.
 
-## Get started
+---
 
-1. Install dependencies
+## 📋 Overview
 
+This app provides **role-based functionality**, allowing:
+- 🛠️ **Admins** to manage warden credentials and assign hostel blocks.
+- 🧑‍🏫 **Wardens** to take attendance, manage student records, and send daily reports.
+
+---
+
+## ✨ Features
+
+### 🔐 Role-based Authentication
+- **Admin**
+  - ➕ Create warden credentials
+  - ✏️ Edit credentials
+  - ❌ Delete credentials
+  - 🏢 Assign blocks to wardens
+- **Warden**
+  - 📝 Take attendance
+  - 👩‍🎓 Manage student records
+  - 📤 Export attendance details
+
+---
+
+### 📅 Attendance Management
+- 🛏️ Display rooms under assigned blocks
+- ✅ Mark students as present
+- ❌ Mark students as absent
+- 📲 Notify parents via SMS (powered by **Twilio**)
+
+---
+
+### 👨‍🎓 Student Management
+- ➕ Add student details
+- ✏️ Edit student details
+- ❌ Delete student details
+- 🛏️ Assign students to rooms
+
+---
+
+### 📊 Daily Reports
+- 📤 Export attendance details to the admin
+- 🧹 Auto-clear previous day’s data after export
+
+---
+
+### 💻 Responsive UI
+- Built using **Tailwind CSS** for a mobile-first and responsive experience
+
+### 🔒 Data Security
+- 🔐 Firebase Authentication
+- 🗂️ Firestore for secure database access
+- 🔑 Role-based access control
+
+---
+
+## 🛠️ Technical Overview
+
+### 🏗️ Architecture
+- **Client:** React Native + Tailwind CSS
+- **Backend:** Firebase (Authentication + Firestore)
+- **SMS Integration:** Twilio for sending notifications
+
+---
+
+### 🧰 Technology Stack
+- ⚛️ React Native
+- 🔥 Firebase (Firestore & Authentication)
+- 📲 Twilio (SMS)
+- 🎨 Tailwind CSS
+
+---
+
+### 📦 Dependencies
+- All dependencies are listed in `package.json`
+
+---
+
+## 📱 Device Requirements
+- Android or iOS device for warden use
+
+---
+
+## 🚀 Installation & Setup
+
+### 📋 Prerequisites
+- ✅ [Node.js](https://nodejs.org/) installed
+- ✅ [Expo CLI](https://docs.expo.dev/get-started/installation/) installed globally
+- ✅ Firebase account
+- ✅ Twilio account
+
+### ⚙️ Setup Instructions
+1. Clone the repo:
    ```bash
-   npm install
-   ```
-
-2. Start the app
-
-   ```bash
-    npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+   git clone https://github.com/Bharathsivanesh/Hostel-AttendenceApp.git
+   cd Hostel-AttendenceApp
