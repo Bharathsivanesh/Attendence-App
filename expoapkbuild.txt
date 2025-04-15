@@ -1,0 +1,7 @@
+1)create a account in eas 
+2)login eas "eas login"
+3)enter email and Password
+4)" eas build --platform android --profile preview" it st building
+5)for one expo account 20 build is free otherwise move to another account
+and connect this project into that expo account uisng "that expo app creat project and give
+command like "eas init id..." then st build 

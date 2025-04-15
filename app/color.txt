@@ -1,0 +1,2 @@
+1.primaty purple-400 ("#A78BFA")
+2.secondart purple-500 ("#8B5CF6")

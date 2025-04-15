@@ -1,0 +1,44 @@
+{
+  "expo": {
+    "name": "Hostel-Attendence",
+    "slug": "ee-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/login.png",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.bharath26.EE"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.bharath26.EE"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "aac4c6d6-2e4f-4c67-88ec-4df2c4640288"
+      }
+    },
+    "owner": "bharath2005"
+  }
+}
