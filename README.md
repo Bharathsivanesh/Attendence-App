@@ -59,6 +59,10 @@ This app provides **role-based functionality**, allowing:
 - 🔑 Role-based access control
 
 ---
+### 💻 Screenshots
+![Image](https://github.com/user-attachments/assets/f48a78aa-bb05-4060-b956-63029f879584)
+![Image](https://github.com/user-attachments/assets/4900df7a-32cb-4c76-81d9-a47331b2f2d4)
+![Image](https://github.com/user-attachments/assets/63f0d933-1d1e-477b-ac88-4bfa8addc9ac)
 
 ## 🛠️ Technical Overview
 
